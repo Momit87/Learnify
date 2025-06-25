@@ -1,0 +1,13 @@
+streamlit
+openai
+langchain
+PyPDF2
+python-docx
+tiktoken
+chromadb
+faiss-cpu
+sentence-transformers
+dotenv
+google-generativeai
+
+
