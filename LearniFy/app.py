@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings("ignore")
-
+import torch
 import streamlit as st
 from utils.file_parser import extract_text_from_pdf, extract_text_from_docx
 from utils.quiz_generator import generate_quiz, parse_quiz_to_dict
@@ -53,7 +53,7 @@ if uploaded_file:
 
             user_answers = {}
             for i, q in enumerate(st.session_state.quiz_data):
-                st.markdown(f"**Q{i+1}: {q['question']}**")
+                st.markdown(f"**Q{q['question']}**")
                 user_answers[i] = st.radio(
                     label="Choose your answer:",
                     options=list(q["options"].keys()),
@@ -76,7 +76,7 @@ if uploaded_file:
                 st.markdown("### ✅ Correct Answers")
                 for i, q in enumerate(st.session_state.quiz_data):
                     correct = q["correct"]
-                    st.markdown(f"**Q{i+1}: {q['question']}**")
+                    st.markdown(f"**Q{q['question']}**")
                     st.markdown(f"- ✅ Correct: **{correct}. {q['options'][correct]}**")
                     st.markdown("---")
 
