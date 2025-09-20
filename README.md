@@ -13,11 +13,8 @@
 * [Workflow](#-workflow)
 * [Technical Components](#-technical-components)
 * [Setup Guide](#-setup-guide)
-* [Environment Variables](#-environment-variables)
 * [Usage](#-usage)
 * [Troubleshooting](#-troubleshooting)
-* [License](#-license)
-
 ---
 
 ## 🌟 Core Features
