@@ -41,7 +41,7 @@
 
 ## 🏗 System Architecture
 
-``mermaid
+```mermaid
 graph TD
     A[Frontend: Streamlit UI] --> B[Backend Logic]
     B --> C[File Parser]
@@ -52,7 +52,7 @@ graph TD
     E --> H[FAISS Vector Store]
     E --> I[Sentence Transformers]
     E --> J[Gemini Model API]
-``
+```
 
 ### Backend Stack
 
