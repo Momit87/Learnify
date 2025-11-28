@@ -3,7 +3,7 @@
 <div align="center">
   <h3>Your AI-Powered Learning Companion</h3>
   <p>A Streamlit-based platform that transforms uploaded documents into interactive Q&A sessions and AI-generated quizzes.</p>
-  <a href="https://learnifyapp.streamlit.app/" target="_blank"><b>🌐 Live Demo</b></a>
+  <a href="[https://learnifyapp.streamlit.app/](https://learnify-ld7laeyxter8wkky76qvuk.streamlit.app/)" target="_blank"><b>🌐 Live Demo</b></a>
 </div>
 
 ## 📑 Table of Contents
