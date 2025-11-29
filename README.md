@@ -154,7 +154,7 @@ streamlit run app.py
 
 ## 🎯 Usage
 
-1. Open the app in your browser (`http://localhost:8501`) or use the **[Live Demo](https://learnifyapp.streamlit.app/)**.
+1. Open the app in your browser (`http://localhost:8501`) or use the **[Live Demo](https://learnify-ld7laeyxter8wkky76qvuk.streamlit.app/)**.
 2. Upload a PDF or DOCX.
 3. Switch between **Ask Questions** and **Generate Quiz** tabs.
 4. Get instant AI-powered answers and quizzes.
@@ -177,5 +177,5 @@ streamlit run app.py
 
 <div align="center">
   <h3>🚀 Ready to Make Learning Smarter?</h3>
-  <p>Try it now: <a href="https://learnifyapp.streamlit.app/" target="_blank"><b>🌐 Live Demo</b></a></p>
+  <p>Try it now: <a href="https://learnify-ld7laeyxter8wkky76qvuk.streamlit.app/" target="_blank"><b>🌐 Live Demo</b></a></p>
 </div>
